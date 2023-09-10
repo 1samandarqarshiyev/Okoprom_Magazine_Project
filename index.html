@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="container header1">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-sm-4 col-12">
+                        <img src="images/okoprom_logo.png" alt="" class="img-fluid">
+                    </div>
+    
+                    <div class="col-xl-9 col-lg-9 col-md-8 col-sm-8 col-12">
+                        <ul class="nav justify-content-end">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="email:azamatovich01@gmail.com">okoprom@gmail.com</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="tel:+998901156515">+998 90 115-65-15</a>
+                            </li>
+                            <li class="nav-item d-xl-block d-lg-block d-md-block d-sm-none d-none">
+                                <a class="nav-link active" aria-current="page" href="#">Доставка и оплата</a>
+                            </li>
+                            <li class="nav-item d-xl-block d-lg-block d-md-block d-sm-none d-none">
+                                <a class="nav-link active" aria-current="page" href="#">Гарантия</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container header2">
+            <div class="row">
+
+                <div class="container header2_1">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-7 col-md-8 col-sm-10 col-12 buttons1">
+                            <button class="btn btn-primary d-xl-block d-lg-block d-md-block d-sm-block d-none" type="submit">Каталог</button>
+                            <button class="btn btn-primary d-xl-block d-lg-block d-md-block d-sm-block d-none" type="submit">Наше производство</button>
+                            <button class="btn btn-primary d-xl-block d-lg-block d-md-block d-sm-block d-none" type="submit">О компании</button>
+                            <button class="btn btn-primary d-xl-block d-lg-block d-md-block d-sm-block d-none" type="submit">Контакты</button>
+                        </div>
+
+                        <div class="col-xl-6 col-lg-5 col-md-12 col-sm-12 col-12 buttons2">
+                            <a class="btn btn-primary d-xl-block d-lg-block d-md-block d-sm-block d-none" href="#" role="button">
+                                <img src="images/search.png" alt="" class="img-fluid">
+                            </a>
+                            <a class="btn btn-primary d-xl-block d-lg-block d-md-block d-sm-block d-none" href="#" role="button">
+                                <img src="images/basket.png" alt="" class="img-fluid">
+                            </a>
+                            <button class="btn btn-primary d-xl-block d-lg-block d-md-block d-sm-block d-none" type="submit">Запросить консультацию</button>
+                        </div>
+                    </div>
+                </div>
+
+                <nav class="navbar navbar-expand-sm d-xl-none d-lg-none d-md-none d-sm-block d-block">
+                    <div class="container-fluid">
+
+                        <div class="nav buttons3">
+                            <a class="btn btn-primary d-xl-none d-lg-none d-md-none d-sm-none d-block" href="#" role="button">
+                                <img src="images/search.png" alt="" class="img-fluid">
+                            </a>
+                            <a class="btn btn-primary d-xl-none d-lg-none d-md-none d-sm-none d-block" href="#" role="button">
+                                <img src="images/basket.png" alt="" class="img-fluid">
+                            </a>
+                        </div>
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                            
+                            <div class="offcanvas-header justify-content-end">
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+
+                            <div class="offcanvas-body">
+                                <div class="container">
+                                    <div class="row">
+
+                                        <ul class="nav">
+                                            <li class="nav-item d-xl-none d-lg-none d-md-none d-sm-none d-block">
+                                                <a class="nav-link active" aria-current="page" href="#">Доставка и оплата</a>
+                                            </li>
+                                            <li class="nav-item d-xl-none d-lg-none d-md-none d-sm-none d-block">
+                                                <a class="nav-link active" aria-current="page" href="#">Гарантия</a>
+                                            </li>
+                                        </ul>
+
+
+                                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 buttons">
+                                            <button class="btn btn-primary d-xl-none d-lg-none d-md-none d-sm-none d-block" type="submit">Каталог</button>
+                                        </div>
+                                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 buttons">
+                                            <button class="btn btn-primary d-xl-none d-lg-none d-md-none d-sm-none d-block" type="submit">Наше производство</button>
+                                        </div>
+                                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 buttons">
+                                            <button class="btn btn-primary d-xl-none d-lg-none d-md-none d-sm-none d-block" type="submit">О компании</button>
+                                        </div>
+                                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 buttons">
+                                            <button class="btn btn-primary d-xl-none d-lg-none d-md-none d-sm-none d-block" type="submit">Контакты</button>
+                                        </div>
+
+
+                                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 buttons1">
+                                            <button class="btn btn-primary d-xl-none d-lg-none d-md-none d-sm-none d-block" type="submit">Запросить консультацию</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </nav>
+
+            </div>
+        </div>
+
+        <div class="container header3">
+            <div class="row">
+
+                <div class="col-xl-6 xol-lg-6 col-md-5 col-sm-12 col-12 header3_2 d-xl-none d-lg-none d-md-none d-sm-block d-block">
+                    <div class="block">
+                        <img src="images/lathe.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="col-xl-6 xol-lg-6 col-md-7 col-sm-12 col-12 header3_1">
+                    <div class="block">
+                        <h1>Новый зверь для всех типов кабелей</h1>
+
+                        <div class="row info">
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 info1">
+                                <p>Диаметр обработки</p>
+                            </div>
+
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 info2">
+                                <p>от 1,5 до 130мм </p>
+                            </div>
+                            <hr>
+                        </div>
+
+                        <div class="row info">
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 info1">
+                                <p>Размеры</p>
+                            </div>
+
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 info2">
+                                <p>90*68*120 см</p>
+                            </div>
+                            <hr>
+                        </div>
+
+                        <div class="row info">
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 info1">
+                                <p>Мощность</p>
+                            </div>
+
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 info2">
+                                <p>3 кВт 380 В</p>
+                            </div>
+                            <hr>
+                        </div>
+
+                        <div class="row summa">
+                            <p>209 000 ₽</p>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 xol-lg-6 col-md-5 col-sm-12 col-12 header3_2 d-xl-block d-lg-block d-md-block d-sm-none d-none">
+                    <div class="block">
+                        <img src="images/lathe.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 left_button">
+                    <button class="btn btn-primary" type="submit">Подробнее</button>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 right_button">
+                    <a class="btn btn-primary" href="#" role="button">
+                        <img src="images/left.png" alt="" class="img-fluid">
+                    </a>
+                    <a class="btn btn-primary" href="#" role="button">
+                        <img src="images/right.png" alt="" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container main1">
+            <div class="row">
+                <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-12">
+                    <h1>Сепараторы, конвейеры, шнековые транспортеры и линии для переработки</h1>
+                    <p>Мы на связи всегда и разберемся с любыми вопросами возникшими во время эксплуатации нашего оборудования.</p>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-0 col-0"></div>
+            </div>
+        </div>
+
+        <div class="container main2">
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 photo">
+                    <div class="block">
+                        <p>Станки для разделки кабеля</p>
+                        <img src="images/lathe1.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 photo">
+                    <div class="block">
+                        <p>Сепараторы</p>
+                        <img src="images/lathe2.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 photo">
+                    <div class="block">
+                        <p>Станок для разделки теплообменников</p>
+                        <img src="images/lathe3.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 photo">
+                    <div class="block">
+                        <p>Разделка радиаторов</p>
+                        <img src="images/lathe4.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 photo">
+                    <div class="block">
+                        <p>Запасные части</p>
+                        <img src="images/lathe5.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 photo">
+                    <div class="block">
+                        <p>Другое</p>
+                        <img src="images/lathe6.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container main3">
+            <div class="row">
+                <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-12">
+                    <h1>Ваша рост – наш интерес, ведь тогда нам будет к чему стремиться</h1>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2 col-sm-0 col-0"></div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 block">
+                    <div class="block1">
+                        <img src="images/image1.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="block2">
+                        <h5>Всегда на связи</h5>
+                        <p>Консультируем при покупке и в дальнейшем при эксплуатации нашего оборудования</p>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 block">
+                    <div class="block1">
+                        <img src="images/image2.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="block2">
+                        <h5>Опыт в сфере</h5>
+                        <p>Большой опыт в переработке вторсырья позволяет глубоко изучать проблемы и находить лучшие решения</p>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 block">
+                    <div class="block1">
+                        <img src="images/image3.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="block2">
+                        <h5>Наличие запчастей</h5>
+                        <p>Преимуществом производства своими силами является замена любых комплектующих и ремонт при поломке</p>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 block">
+                    <div class="block1">
+                        <img src="images/image4.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="block2">
+                        <h5>Доставка по всей России</h5>
+                        <p>Отправим товар транспортной компанией или почтовым отправлением (оплата при получении)</p>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 block">
+                    <div class="block1">
+                        <img src="images/image5.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="block2">
+                        <h5>Аренда станков</h5>
+                        <p>Станки можно брать на временное использование с залогом</p>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 block">
+                    <div class="block1">
+                        <img src="images/image6.png" alt="" class="img-fluid">
+                    </div>
+                    <div class="block2">
+                        <h5>Гарантия на всё</h5>
+                        <p>Предоставляется гарантия сроком до 1 года со дня приобретения товара</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container main4">
+            <div class="row">
+
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 menu1">
+                    <div class="block">
+                        <div class="block1">
+                            <h1>Почему именно мы?</h1>
+                        </div>
+                        <div class="block2">
+                            <p>За долгое время работы в этой области у нас более одной 
+                                тысячи клиентов в базе в том числе и представленные выше. 
+                                В основном это компании по переработке вторсырья.
+                                <br><br>
+                                Мы уже прошли тот путь который вам предстоит пройти после 
+                                приобретения нашей продукции и лучше подскажем: что вам 
+                                лучше подойдет, чего надо избегать и как более эффективно 
+                                использовать то что есть.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 menu2">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-12 image">
+                            <div class="block">
+                                <img src="images/logo1.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+    
+                        <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-12 image">
+                            <div class="block">
+                                <div>
+                                    <div class="logo2">
+                                        <img src="images/logo2.png" alt="" class="img-fluid">
+                                    </div>
+                                    <p>Группа компаний <br> МОСКАБЕЛЬМЕТ</p>     
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-12 image">
+                            <div class="block">
+                                <img src="images/logo3.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+    
+                        <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-12 image">
+                            <div class="block">
+                                <div>
+                                    <img src="images/logo4.png" alt="" class="img-fluid">
+                                    <p>ВторТехМикс</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-12 image">
+                            <div class="block">
+                                <div>
+                                    <h1>УМЗ</h1>
+                                    <p>Урюпинский машиностроительный завод</p>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-12 image">
+                            <div class="block">
+                                <img src="images/logo5.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container main5">
+            <div class="row block">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 item1">
+                    <div>
+                        <h1>Будем рады ответить на все интересующие вопросы</h1>
+                        <p>Оставьте заявку и мы вам вскоре позвоним и 
+                            проконсультируем по всем интересующим вопросам
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 item2">
+                    <div class="block">
+                        <div class="input-group">
+                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Ваше имя">
+                        </div>
+                        <hr>
+    
+                        <div class="input-group">
+                            <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="+ 998 __ __">
+                        </div>
+                        <hr>
+    
+                        <div class="input-group">
+                            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="E-mail (необязательно)">
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 logo">
+                    <img src="images/okoprom_logo.png" alt="" class="img-fluid">
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 item1">
+                    <div class="block">
+                        <p>Тураевское шоссе дом 17, д. Островцы, Раменский район, МО, Россия</p>
+                        <a href="tel:+998901156515">+998 90 115-65-15</a><br>
+                        <a href="email:azamatovich010@gmail.com">okoprom@gmail.com</a><br>
+                        <button class="btn btn-primary" type="submit">Whatsapp</button>
+                        <button class="btn btn-primary" type="submit">Telegram</button>
+                    </div>
+                </div>
+
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 item2">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                            <p>Наша продукция</p>
+                            <a href="#">Станки для разделки кабеля</a><br>
+                            <a href="#">Сепараторы</a><br>
+                            <a href="#">Станок для разделки теплообменников</a><br>
+                            <a href="#">Разделка радиаторов</a><br>
+                            <a href="#">Запасные части</a><br>
+                            <a href="#">Другое</a>
+                        </div>
+
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+                            <p>Информация</p>
+                            <a href="#">Доставка и оплата</a><br>
+                            <a href="#">Гарантия</a><br>
+                            <a href="#">Служба контроля качества</a><br>
+                            <a href="#">Наше производство</a><br>
+                            <a href="#">О компании</a><br>
+                            <a href="#">Контакты</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row insta_youtube">
+                <div class="block">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                        </svg>
+                    </a>
+
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+                        </svg>
+                    </a>
+
+                    <p class="d-xl-block d-lg-block d-md-block d-sm-block d-none">Подписывайтесь на нас <br> в социальных сетях</p>
+                </div>
+                <p class="d-xl-none d-lg-none d-md-none d-sm-none d-block">Подписывайтесь на нас в социальных сетях</p>
+            </div>
+
+            <hr>
+
+            <div class="row footer_end">
+                <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-12 text1">
+                    <p>Интернет магазин "Окопром" © 2021 Все права защищены</p>
+                </div>
+
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 text2">
+                    <p>Политика конфиденциальности</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="javascript.js"></script>
+</body>
+</html>

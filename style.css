@@ -1,0 +1,463 @@
+header .container-fluid {
+  background-color: rgb(244, 245, 248);
+}
+header .container-fluid .header1 .row {
+  display: flex;
+  align-items: center;
+}
+header .container-fluid .header1 .row ul li a {
+  color: rgb(117, 117, 117);
+}
+header .container-fluid .header1 .row ul li :active {
+  color: black;
+}
+header .header2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+header .header2 .row {
+  display: flex;
+  align-items: center;
+}
+header .header2 .row .header2_1 .row .buttons1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+header .header2 .row .header2_1 .row .buttons1 button {
+  background-color: rgb(244, 245, 248);
+  border: 0px;
+  color: black;
+  width: auto;
+  height: 44px;
+  margin: 5px 3px 5px 3px;
+  font-size: 90%;
+  font-weight: 600;
+  padding: 2px 15px 2px 15px;
+  border-radius: 10px;
+}
+header .header2 .row .header2_1 .row .buttons2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+header .header2 .row .header2_1 .row .buttons2 a {
+  background-color: rgb(244, 245, 248);
+  border: 0px;
+  width: auto;
+  height: 44px;
+  margin: 5px 3px 5px 3px;
+  border-radius: 10px;
+}
+header .header2 .row .header2_1 .row .buttons2 a img {
+  width: 100%;
+}
+header .header2 .row .header2_1 .row .buttons2 button {
+  background-color: rgb(0, 0, 0);
+  border: 0px;
+  color: rgb(255, 255, 255);
+  width: auto;
+  height: 44px;
+  margin: 5px 3px 5px 3px;
+  font-size: 90%;
+  font-weight: 600;
+  border-radius: 10px;
+}
+header .header2 .row nav .container-fluid {
+  background-color: rgb(255, 255, 255);
+}
+header .header2 .row nav .container-fluid .buttons3 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+header .header2 .row nav .container-fluid .buttons3 a {
+  background-color: rgb(244, 245, 248);
+  border: 0px;
+  width: auto;
+  height: 44px;
+  margin: 5px 3px 5px 3px;
+  border-radius: 10px;
+}
+header .header2 .row nav .container-fluid .buttons3 a img {
+  width: 100%;
+}
+header .header2 .row nav .container-fluid .offcanvas-body .container ul {
+  background-color: rgb(244, 245, 248);
+  border-radius: 5px;
+}
+header .header2 .row nav .container-fluid .offcanvas-body .container ul li a {
+  color: rgb(117, 117, 117);
+}
+header .header2 .row nav .container-fluid .offcanvas-body .container ul li :active {
+  color: black;
+}
+header .header2 .row nav .container-fluid .offcanvas-body .container .buttons {
+  width: 100%;
+}
+header .header2 .row nav .container-fluid .offcanvas-body .container .buttons button {
+  width: 100%;
+  background-color: rgb(244, 245, 248);
+  border: 0px;
+  color: black;
+  width: auto;
+  height: 44px;
+  margin: 5px 3px 5px 3px;
+  font-size: 90%;
+  font-weight: 600;
+  padding: 2px 15px 2px 15px;
+  border-radius: 10px;
+}
+header .header2 .row nav .container-fluid .offcanvas-body .container .buttons1 {
+  width: 100%;
+}
+header .header2 .row nav .container-fluid .offcanvas-body .container .buttons1 button {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  border: 0px;
+  color: rgb(255, 255, 255);
+  width: auto;
+  height: 44px;
+  margin: 5px 3px 5px 3px;
+  font-size: 90%;
+  font-weight: 600;
+  padding: 2px 15px 2px 15px;
+  border-radius: 10px;
+}
+header .header3 {
+  background-color: black;
+  border-radius: 12px;
+}
+header .header3 .row .header3_1 .block {
+  margin: 20px auto 20px 20px;
+}
+header .header3 .row .header3_1 .block h1 {
+  color: white;
+}
+header .header3 .row .header3_1 .block .info .info1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+header .header3 .row .header3_1 .block .info .info1 p {
+  color: rgb(159, 159, 159);
+  font-size: 90%;
+}
+header .header3 .row .header3_1 .block .info .info2 {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+header .header3 .row .header3_1 .block .info .info2 p {
+  color: rgb(159, 159, 159);
+  font-size: 85%;
+}
+header .header3 .row .header3_1 .block .info hr {
+  color: rgb(159, 159, 159);
+}
+header .header3 .row .header3_1 .block .summa {
+  margin-top: 10%;
+}
+header .header3 .row .header3_1 .block .summa p {
+  color: white;
+  font-weight: 600;
+}
+header .header3 .row .header3_1 .block .summa hr {
+  color: rgb(159, 159, 159);
+}
+header .header3 .row .header3_2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .header3 .row .header3_2 .block {
+  margin: 10px auto auto auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+}
+header .header3 .row .left_button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 20px auto 30px auto;
+}
+header .header3 .row .left_button button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border: 0px;
+}
+header .header3 .row .right_button {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin: 20px auto 30px auto;
+}
+header .header3 .row .right_button a {
+  margin: auto 3px auto 3px;
+  background-color: rgb(255, 255, 255);
+  border: 0px;
+  color: white;
+}
+header .header3 .row .right_button a img {
+  color: white;
+  width: 100%;
+}
+
+main .main1 {
+  margin-top: 10%;
+}
+main .main1 .row p {
+  margin-top: 20px;
+  color: rgb(117, 117, 117);
+}
+main .main2 {
+  margin-top: 3%;
+}
+main .main2 .row .photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .main2 .row .photo .block {
+  background-color: rgb(255, 255, 255);
+  border: 1px rgb(244, 244, 244) solid;
+  border-radius: 10px;
+  box-shadow: 1px 1px 8px 0px rgb(193, 193, 193);
+  margin: 10px 0px 10px 0px;
+  height: 94%;
+}
+main .main2 .row .photo .block p {
+  margin-top: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 110%;
+  font-weight: 700;
+  text-align: center;
+}
+main .main2 .row .photo .block img {
+  padding: 10px 5px 10px 5px;
+}
+main .main3 {
+  margin-top: 5%;
+}
+main .main3 .row h1 {
+  margin-bottom: 30px;
+}
+main .main3 .row .block {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+main .main3 .row .block .block1 {
+  box-shadow: 1px 1px 8px 1px rgb(228, 228, 228);
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+}
+main .main3 .row .block .block1 img {
+  padding: 10px 0px 10px 0px;
+}
+main .main3 .row .block .block2 {
+  width: 100%;
+  height: auto;
+}
+main .main3 .row .block .block2 p {
+  font-size: 90%;
+  color: rgb(117, 117, 117);
+}
+main .main4 .row .menu1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .main4 .row .menu1 .block {
+  background-color: rgb(244, 245, 248);
+  padding: 20px;
+  border-radius: 25px;
+  height: 96.5%;
+}
+main .main4 .row .menu1 .block .block1 h1 {
+  margin-top: 10px;
+  margin-bottom: 80px;
+}
+main .main4 .row .menu1 .block .block2 {
+  display: flex;
+  align-items: end;
+}
+main .main4 .row .menu1 .block .block2 p {
+  color: rgb(117, 117, 117);
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+main .main4 .row .menu2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .main4 .row .menu2 .row {
+  height: 100%;
+}
+main .main4 .row .menu2 .row .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .main4 .row .menu2 .row .image .block {
+  background-color: rgb(244, 245, 248);
+  width: 100%;
+  height: 200px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 10px rgb(255, 255, 255) solid;
+  border-right: 0;
+  border-bottom: 10px rgb(255, 255, 255) solid;
+  border-left: 0;
+}
+main .main4 .row .menu2 .row .image .block p {
+  text-align: center;
+  font-weight: 700;
+  font-size: 90%;
+}
+main .main4 .row .menu2 .row .image .block h1 {
+  text-align: center;
+}
+main .main4 .row .menu2 .row .image .logo2 {
+  display: flex;
+  justify-content: center;
+}
+main .main5 {
+  margin-top: 7%;
+}
+main .main5 .block {
+  background-color: rgb(32, 34, 38);
+  padding: 40px 30px 40px 30px;
+  border-radius: 20px;
+}
+main .main5 .block .item1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .main5 .block .item1 h1 {
+  color: white;
+}
+main .main5 .block .item1 p {
+  color: rgb(159, 159, 159);
+}
+main .main5 .block .item2 input {
+  background-color: rgb(32, 34, 38);
+  border: 0px;
+  color: white;
+}
+main .main5 .block .item2 ::-moz-placeholder {
+  color: rgb(159, 159, 159);
+}
+main .main5 .block .item2 ::placeholder {
+  color: rgb(159, 159, 159);
+}
+main .main5 .block .item2 hr {
+  color: white;
+}
+
+footer {
+  background-color: rgb(244, 245, 248);
+  margin-top: 10%;
+  height: auto;
+}
+footer .container .row .logo {
+  display: flex;
+  align-items: center;
+  margin: 17px auto auto auto;
+}
+footer .container .row .item1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .container .row .item1 .block {
+  margin: 30px auto 30px auto;
+}
+footer .container .row .item1 .block p {
+  color: rgb(0, 0, 0);
+  font-size: 120%;
+  font-weight: 600;
+}
+footer .container .row .item1 .block a {
+  text-decoration: none;
+  color: black;
+  font-size: 120%;
+  font-weight: 600;
+}
+footer .container .row .item1 .block button {
+  background-color: rgb(32, 34, 38);
+  border: 0px;
+  border-radius: 8px;
+  margin: 10px auto 10px auto;
+}
+footer .container .row .item2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .container .row .item2 .row {
+  margin: 10px auto 30px auto;
+}
+footer .container .row .item2 .row p {
+  margin-top: 20px;
+  font-size: 110%;
+  font-weight: 600;
+  color: black;
+}
+footer .container .row .item2 .row a {
+  text-decoration: none;
+  color: black;
+}
+footer .container .insta_youtube .block {
+  display: flex;
+}
+footer .container .insta_youtube .block a {
+  text-decoration: none;
+}
+footer .container .insta_youtube .block a svg {
+  border: 1.5px rgb(233, 233, 233) solid;
+  border-radius: 10px;
+  padding: 10px;
+  width: 50px;
+  height: auto;
+  margin: auto 5px auto auto;
+  color: black;
+}
+footer .container .insta_youtube .block a svg path {
+  background-color: red;
+}
+footer .container .insta_youtube .block p {
+  margin: auto auto auto 10px;
+  color: rgb(117, 117, 117);
+}
+footer .container .insta_youtube p {
+  margin: 10px auto 10px 10px;
+  color: rgb(117, 117, 117);
+}
+footer .container .footer_end .text1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+footer .container .footer_end .text1 p {
+  color: rgb(117, 117, 117);
+}
+footer .container .footer_end .text2 {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+footer .container .footer_end .text2 p {
+  color: rgb(117, 117, 117);
+}/*# sourceMappingURL=style.css.map */
